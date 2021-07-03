@@ -6,7 +6,7 @@ module.exports = {
   title: 'XT Collaborations',
   tagline: 'One stop for all the awesome work!',
   url: 'https://xt-collaborator.github.io',
-  baseUrl: '/',
+  baseUrl: '/xt-collaborator/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
