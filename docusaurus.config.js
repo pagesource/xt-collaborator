@@ -5,12 +5,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'XT Collaborations',
   tagline: 'One stop for all the awesome work!',
-  url: 'https://https://pagesource.github.io',
-  baseUrl: '/xt-collaborator/build/',
+  url: 'https://pagesource.github.io',
+  baseUrl: '/xt-collaborator/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Publicis Sapient', // Usually your GitHub org/user name.
+  organizationName: 'pagesource', // Usually your GitHub org/user name.
   projectName: 'xt-collaborator', // Usually your repo name.
   themeConfig: {
     navbar: {
