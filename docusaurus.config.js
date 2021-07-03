@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'XT Collaborations',
   tagline: 'One stop for all the awesome work!',
-  url: 'https://xt-collaborator.github.io',
+  url: 'https://https://pagesource.github.io',
   baseUrl: '/xt-collaborator/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
