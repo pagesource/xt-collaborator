@@ -1,0 +1,13 @@
+{
+  "contributions": [
+    {
+      "title": "smart-context",
+      "description": "`smart-context` makes React state management easy. It is based on context api and does not require any setup. It provides option to integrate with other external packages such as immer.",
+      "sourceLink": "https://github.com/achaljain/smart-context",
+      "demoLink": "https://react-smart-context-demo.stackblitz.io",
+      "pageLink": "https://github.com/achaljain/smart-context/blob/master/README.md",
+      "keywords": ["react", "context", "redux", "state"],
+      "author": "Achal Jain"
+    }
+  ]
+}
