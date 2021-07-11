@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'XT Collaborations',
+  title: 'XT Collaborator',
   tagline: 'One stop for all the awesome work!',
   url: 'https://pagesource.github.io',
   baseUrl: '/xt-collaborator/',
@@ -14,38 +14,25 @@ module.exports = {
   projectName: 'xt-collaborator', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'XT Collaborations',
+      title: 'XT Collaborator',
       logo: {
         alt: 'PS XT',
         src: 'img/logo.svg',
-      },
-      items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Projects',
-        },
-        {
-          href: 'https://github.com/pagesource/xt-collaborator',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+      }
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'More',
+          title: 'Connect with us',
           items: [
             {
               label: 'Twitter',
               href: 'https://twitter.com/pubsapientindia?lang=en',
             },
             {
-              label: 'Pagesource GitHub',
-              href: 'https://github.com/pagesource',
+              label: 'GitHub',
+              href: 'https://github.com/pagesource/xt-collaborator',
             },
           ],
         },
