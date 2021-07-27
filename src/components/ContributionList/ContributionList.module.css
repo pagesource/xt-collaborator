@@ -1,0 +1,30 @@
+.contributionList {
+  display: flex;
+  justify-content: center;
+}
+
+.contributionCard {
+  border-radius: 0.5rem;
+  max-width: 1200px;
+}
+
+.pageHeader {
+  background-color: var(--base-color);
+  color: var(--font-color-light);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.readMore {
+  padding-left: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .header {
+    flex-direction: row;
+  }
+}

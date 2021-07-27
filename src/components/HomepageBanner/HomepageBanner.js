@@ -9,12 +9,12 @@ const {siteConfig} = useDocusaurusContext();
 return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
     <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className={clsx("hero__title", styles.pageTitle)}>{siteConfig.title}</h1>
+        <p className={clsx("hero__subtitle", styles.pageSubTitle)}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
         <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/contributions">
             Explore
         </Link>
         </div>

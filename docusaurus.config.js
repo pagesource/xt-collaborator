@@ -43,15 +43,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'More',
+          title: 'Connect with us',
           items: [
             {
               label: 'Twitter',
               href: 'https://twitter.com/pubsapientindia?lang=en',
             },
             {
-              label: 'Pagesource GitHub',
-              href: 'https://github.com/pagesource',
+              label: 'GitHub',
+              href: 'https://github.com/pagesource/xt-collaborator',
             },
           ],
         },
